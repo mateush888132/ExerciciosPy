@@ -6,4 +6,4 @@ largura = float(input('Digite a largura: '))
 area = altura * largura
 litros = area / 2
 
-print('Para pintar sua parede com área de {} são necessários {}L de tinta' .format(area, litros))
+print('Para pintar sua parede com área de {:.2f} são necessários {:.2f}L de tinta' .format(area, litros))
